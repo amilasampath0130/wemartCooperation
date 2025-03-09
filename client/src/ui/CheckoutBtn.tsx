@@ -1,26 +1,26 @@
-import { loadStripe } from "@stripe/stripe-js";
+//import { loadStripe } from "@stripe/stripe-js";
 import { ProductProps } from "../../type";
 import { store } from "../lib/store";
-import { config } from "../../config";
+//import { config } from "../../config";
 
-const CheckoutBtn = ({ products }: { products: ProductProps[] }) => {
+const CheckoutBtn = ({ }: { products: ProductProps[] }) => {
   const { currentUser } = store();
-  const publishableKey = "";
-  const stripePromise = loadStripe(publishableKey);
+  //const publishableKey = "";
+ // const stripePromise = loadStripe(publishableKey);
 
   const handleCheckout = async () => {
     //const stripe = await stripePromise;
-    const response = await fetch(`${config?.baseUrl}/checkout`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        items: products,
-        email: currentUser?.email,
-      }),
-    });
-    const checkoutSession = await response?.json();
+    // const response = await fetch(`${config?.baseUrl}/checkout`, {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    //   body: JSON.stringify({
+    //     items: products,
+    //     email: currentUser?.email,
+    //   }),
+    // });
+    //const checkoutSession = await response?.json();
     // const result: any = await stripe?.redirectToCheckout({
     //   sessionId: checkoutSession.id,
     // });

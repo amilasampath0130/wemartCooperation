@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
 import Container from "./Container";
 import Title from "./Title";
-import Pagination from "./pagination";
+import Pagination from "./Pagination";
+
 
 const ProductList = () => {
   return (

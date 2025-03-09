@@ -1,4 +1,3 @@
-import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.tsx'
@@ -10,8 +9,6 @@ import Profile from './pages/Profile.tsx'
 import Cart from './pages/Cart.tsx'
 import Favourite from './pages/Favourite.tsx'
 import Orders from './pages/Orders.tsx'
-import Success from './pages/Success.tsx'
-import Cancel from './pages/Cancel.tsx'
 import NotFound from './pages/NotFound.tsx'
 
 const RouterLayout =()=>{
@@ -63,14 +60,14 @@ const router = createBrowserRouter([{
       path: '/orders',
       element: <Orders />,
     },
-    {
-      path: '/success',
-      element: <Success />,
-    },
-    {
-      path: '/cancel',
-      element: <Cancel />,
-    },
+    // {
+    //   path: '/success',
+    //   element: <Success />,
+    // },
+    // {
+    //   path: '/cancel',
+    //   element: <Cancel />,
+    // },
     {
       path: '/orders/:id',
       element: <Orders />,

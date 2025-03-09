@@ -1,8 +1,8 @@
 import ScrollToTop from "./components/ScrollToTop"
 import BannerCategories from "./ui/BannerCategories"
-import Blog from "./ui/Blog"
+
 import Categories from "./ui/Categories"
-import Container from "./ui/Container"
+
 import DiscountedBanner from "./ui/DiscountedBanner"
 import Highlights from "./ui/Highlights"
 import HomeBanner from "./ui/HomeBanner"
@@ -22,7 +22,7 @@ function App() {
       <Categories />
       <ProductList />
       <DiscountedBanner />
-      <Blog />
+
 
     </main>
   )

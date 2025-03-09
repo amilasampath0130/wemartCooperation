@@ -32,7 +32,7 @@ const Header = () => {
   const [categories, setCategories] = useState([]);
   const [products, setProducts] = useState([]);
   const [filteredProducts, setFilteredProducts] = useState([]);
-  const { cartProduct, favoriteProduct, currentUser } = store();
+  const { cartProduct, favoriteProduct, } = store();
   const [isNavOpen, setIsNavOpen] = useState(false); // Toggle for small screen nav
 
   useEffect(() => {
