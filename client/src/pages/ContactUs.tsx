@@ -4,15 +4,15 @@ import './Contact.css';
 
 const ContactUS = () => {
   // Function to handle form submission
-  const onSubmit = async (event) => {
+  const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();  // Prevents page reload on form submission
-
-    const formData = new FormData(event.target);
+  
+    const formData = new FormData(event.currentTarget);
     formData.append("access_key", "051c365f-2436-421b-8b90-f4c51e8f2e88");
-
+  
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
-
+  
     try {
       // Submit the form data to the Web3Forms API
       const res = await fetch("https://api.web3forms.com/submit", {
@@ -23,8 +23,8 @@ const ContactUS = () => {
         },
         body: json
       });
+  
       const data = await res.json();
-
       if (data.success) {
         console.log("Success", data);
       } else {
@@ -34,6 +34,7 @@ const ContactUS = () => {
       console.error("Error submitting form:", error);
     }
   };
+  
 
   return (
     <Container className="bg-logoBlue">
