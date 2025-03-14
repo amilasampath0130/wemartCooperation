@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import Container from "./Container";
 
 const FooterTop = () => {
@@ -60,6 +60,28 @@ const FooterTop = () => {
               </div>
             </div>
           ))}
+
+          {/* Footer Links */}
+          <div className="mt-10 text-center tracking-tight flex flex-row justify-center">
+            <Link
+              to="/refund-policy"
+              className="text-sm text-gray-600 hover:text-gray-900 hover:underline hover:font-bold mx-2 "
+            >
+              Refund Policy
+            </Link>
+            <Link
+              to="/privacy-policy"
+              className="text-sm text-gray-600 hover:text-gray-900 hover:underline hover:font-bold mx-2"
+            >
+              Privacy Policy
+            </Link>
+            <Link
+              to="/terms-and-conditions"
+              className="text-sm text-gray-600 hover:text-gray-900 hover:underline hover:font-bold mx-2 "
+            >
+              Terms and Conditions
+            </Link>
+          </div>
         </div>
       </div>
     </Container>

@@ -1,4 +1,5 @@
 import ScrollToTop from "./components/ScrollToTop"
+import ContactUs from "./pages/ContactUs"
 import BannerCategories from "./ui/BannerCategories"
 
 import Categories from "./ui/Categories"
@@ -22,6 +23,7 @@ function App() {
       <Categories />
       <ProductList />
       <DiscountedBanner />
+      <ContactUs />
 
 
     </main>

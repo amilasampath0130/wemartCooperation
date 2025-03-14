@@ -10,6 +10,9 @@ import Cart from './pages/Cart.tsx'
 import Favourite from './pages/Favourite.tsx'
 import Orders from './pages/Orders.tsx'
 import NotFound from './pages/NotFound.tsx'
+import RefundPolicy from './components/RefundPolicy.tsx'
+import Privacypolicy from './components/PrivacyPolicy.tsx'
+import TermsandConditions from './components/TermsConditions.tsx'
 
 const RouterLayout =()=>{
   return(
@@ -60,14 +63,18 @@ const router = createBrowserRouter([{
       path: '/orders',
       element: <Orders />,
     },
-    // {
-    //   path: '/success',
-    //   element: <Success />,
-    // },
-    // {
-    //   path: '/cancel',
-    //   element: <Cancel />,
-    // },
+    {
+      path: '/refund-policy',
+      element: <RefundPolicy />,
+    },
+    {
+      path: '/privacy-policy',
+      element: <Privacypolicy />,
+    },
+    {
+      path: '/Terms-and-Conditions',
+      element: <TermsandConditions />,
+    },
     {
       path: '/orders/:id',
       element: <Orders />,
