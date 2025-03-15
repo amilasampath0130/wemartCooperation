@@ -115,7 +115,7 @@ export const highlightsProducts = [
   {
     _id: 3001,
     name: "New Deals at Best Prices",
-    title: "From RS 500",
+    title: "From RS 499",
     buttonTitle: "Show Now",
     image: "https://i.postimg.cc/hP8MG3Y5/DELL-MS111-USB-OPTICAL-MOUSE.jpg",
     _base: "/product",
@@ -124,7 +124,7 @@ export const highlightsProducts = [
   {
     _id: 3002,
     name: "USB Mini key bord",
-    title: "From RS 1400.00",
+    title: "From RS 1449.00",
     buttonTitle: "Shop Now",
     image: "https://i.postimg.cc/sxLf16dL/c35625c85b960787fd798e7855fac157.jpg",
     _base: "/category/key_bords",
@@ -133,7 +133,7 @@ export const highlightsProducts = [
   {
     _id: 3003,
     name: "Wire Less mouse",
-    title: "From RS1000.00",
+    title: "From 949.00",
     buttonTitle: "Shop Now",
     image: "https://i.postimg.cc/hPRpcq2m/Wireless-Mouse-Banda-G620.jpg",
     _base: "/product",
@@ -346,7 +346,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
     regularPrice: 1599,
-    discountedPrice: 0,
+    discountedPrice: 1599,
     quantity: 1,
     rating: 0,
     reviews: 0,
@@ -366,8 +366,8 @@ export const products = [
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
-    regularPrice: 599,
-    discountedPrice: 549,
+    regularPrice: 1599,
+    discountedPrice: 1549,
     quantity: 1,
     rating: 4,
     reviews: 60,
@@ -409,7 +409,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
     regularPrice: 1499,
-    discountedPrice: 0,
+    discountedPrice: 1499,
     quantity: 1,
     rating: 4.7,
     reviews: 0,
@@ -430,7 +430,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
     regularPrice: 2299,
-    discountedPrice: 0,
+    discountedPrice: 2299,
     quantity: 1,
     rating: 4.7,
     reviews: 0,
@@ -450,8 +450,8 @@ export const products = [
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
-    regularPrice: 210,
-    discountedPrice: 200,
+    regularPrice: 1199,
+    discountedPrice: 1159,
     quantity: 1,
     rating: 3.9,
     reviews: 100,
@@ -472,7 +472,7 @@ export const products = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
     regularPrice: 1200,
-    discountedPrice: 0,
+    discountedPrice: 1200,
     quantity: 1,
     rating: 0,
     reviews: 0,
@@ -534,8 +534,8 @@ export const products = [
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
-    regularPrice: 2100,
-    discountedPrice: 2000,
+    regularPrice: 2299,
+    discountedPrice: 2249,
     quantity: 1,
     rating: 3.9,
     reviews: 100,
@@ -555,8 +555,8 @@ export const products = [
     ],
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis repellendus dolore, facilis iste obcaecati ab nesciunt ducimus quidem molestias aut? Aut vitae error delectus itaque facilis obcaecati nemo dolore cumque. Blanditiis minus corrupti dignissimos, voluptas iusto, eligendi maiores doloremque aliquid mollitia in hic dolores pariatur doloribus dolorum totam. Facilis, dignissimos.",
-    regularPrice: 2100,
-    discountedPrice: 2000,
+    regularPrice: 2149,
+    discountedPrice: 2099,
     quantity: 1,
     rating: 3.9,
     reviews: 100,
