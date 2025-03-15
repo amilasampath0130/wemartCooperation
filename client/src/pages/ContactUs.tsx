@@ -44,7 +44,7 @@ const ContactUS = () => {
 
   return (
     <Container className="bg-logoBlue">
-      <div className="flex flex-col sm:flex-row items-center rounded-2xl bg-[#132e57] px-6 py-16 sm:p-16 gap-8">
+      <div className="flex flex-col sm:flex-row items-center rounded-2xl bg-[#94b8ef] px-6 py-16 sm:p-16 gap-8">
         
         {/* Form & Image Section (Hidden after Submission) */}
         {!isSubmitted ? (
